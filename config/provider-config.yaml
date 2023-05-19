@@ -1,0 +1,111 @@
+
+
+resolvers:
+    - 1.1.1.1:53
+    - 1.0.0.1:53
+    - 8.8.8.8:53
+    - 8.8.4.4:53
+    - 9.9.9.9:53
+    - 9.9.9.10:53
+    - 77.88.8.8:53
+    - 77.88.8.1:53
+    - 208.67.222.222:53
+    - 208.67.220.220:53
+sources:
+    - alienvault
+    - anubis
+    - bufferover
+    - certspotter
+    - censys
+    - chaos
+    - chinaz
+    - crtsh
+    - dnsdumpster
+    - hackertarget
+    - intelx
+    - passivetotal
+    - robtex
+    - riddler
+    - securitytrails
+    - shodan
+    - spyse
+    - sublist3r
+    - threatcrowd
+    - threatminer
+    - virustotal
+    - fofa
+all-sources:
+    - alienvault
+    - anubis
+    - archiveis
+    - binaryedge
+    - bufferover
+    - censys
+    - certspotter
+    - chaos
+    - commoncrawl
+    - crtsh
+    - dnsdumpster
+    - dnsdb
+    - github
+    - hackertarget
+    - intelx
+    - passivetotal
+    - rapiddns
+    - riddler
+    - recon
+    - robtex
+    - securitytrails
+    - shodan
+    - sitedossier
+    - sonarsearch
+    - spyse
+    - sublist3r
+    - threatbook
+    - threatcrowd
+    - threatminer
+    - virustotal
+    - waybackarchive
+    - zoomeye
+    - fofa
+recursive:
+    - alienvault
+    - binaryedge
+    - bufferover
+    - certspotter
+    - crtsh
+    - dnsdumpster
+    - hackertarget
+    - passivetotal
+    - securitytrails
+    - sonarsearch
+    - sublist3r
+    - virustotal
+binaryedge: []
+censys: 
+    - 5bd2a5da-abf7-4f9b-b216-16fa003c9d1d
+certspotter: []
+chaos: []
+chinaz: 
+    - 4b20375e736a40b181dc380f41c391cd
+dnsdb: []
+github: 
+    - p_VdG9J5LR6TBLOPDiVTJLbJGqJA0yjU0J7aHS
+intelx: []
+passivetotal: []
+recon: []
+robtex: []
+securitytrails: []
+shodan: 
+    - U5ityH3ya9gcGMrKdvHcaKD2xyJEsgn8
+spyse: 
+    - 65b8676c-1d61-4915-8718-a324b64a36a8
+threatbook: 
+    - f7bff3be38934f778d70c7a5fc6097387638c347625d41379a6f6ca0f2ae89e0
+urlscan: 
+    - f40240d3-54a6-4778-a401-7d83e6ee83ac
+virustotal: 
+     - 209e09bd70fb39a37987218def266691e0bb834a91b26d56039eed82c02b2e71
+zoomeye: []
+fofa: 
+    - zjgelen@gmail.com:1bd13cc61d22823099fea2a8e26f7478
