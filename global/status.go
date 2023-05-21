@@ -10,9 +10,9 @@ type BACKEND_API_STRUCT struct {
 }
 
 var (
-	Target        = make(chan string, 500)
-	WkgURL        = "http://172.31.36.33:7788"
-	HeartBeatAPI  = "http://172.31.36.33:7788/v2/agent/heartBeat"
+	Target = make(chan string, 500)
+	// WkgURL        = "http://42.193.253.66:7788"
+	WkgURL        = "http://192.168.31.123:7788"
 	NewDomainPath = "./result.txt"
 
 	Alarm   = make(chan types2.Alarm, 1000)

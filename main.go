@@ -63,7 +63,9 @@ func main() {
 	zap.S().Info("kernel_version:", host.KernelVersion)
 	zap.S().Info("arch:", host.Arch)
 	wg := &sync.WaitGroup{}
-	logger.Info("++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++")
+	zap.S().Info("++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++")
+
+	fmt.Println("[+] agent starting.")
 
 	go heartbeat.Startup(agent.Context, wg)
 	go transport.StartTransfer(agent.Context, wg)

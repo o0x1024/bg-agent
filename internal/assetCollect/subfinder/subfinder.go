@@ -26,11 +26,12 @@ var (
 	runnerInstance *runner.Runner
 	threadNum      = 20 //线程数
 	wg             = &sync.WaitGroup{}
-	domainCh       = make(chan TaskChan, 5)
+	domainCh       chan TaskChan
 	result         string
 )
 
-func ColletDomainByInterface(task *response.Task) {
+func ColletDomainBySubfinder(task *response.Task) {
+	domainCh = make(chan TaskChan, 5)
 	//初始化扫描器/////////////////
 	var err error
 	runnerInstance, err = runner.NewRunner(&runner.Options{
@@ -85,7 +86,7 @@ func ColletDomainByInterface(task *response.Task) {
 		}
 	}
 
-	// close(domainCh)
+	close(domainCh)
 
 	wg.Wait()
 	zap.S().Infoln("TaskNo:", task.TaskNo, "find subdomain count:", len(result))

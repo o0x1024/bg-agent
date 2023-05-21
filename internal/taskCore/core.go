@@ -2,6 +2,7 @@ package taskCore
 
 import (
 	"bg-agent/global"
+	"bg-agent/internal/assetCollect/ksubdomain"
 	"bg-agent/internal/assetCollect/subfinder"
 	"bg-agent/internal/libs/enc"
 	"bg-agent/model/response"
@@ -38,13 +39,14 @@ func Run(ctx context.Context, wg *sync.WaitGroup) {
 // 1002 信息搜集-域名-暴力破解
 // 1003 信息搜集-域名-暴力破解
 func execTask(task *response.Task) {
-	zap.S().Infoln("Start task task Id:", task.TaskId)
+	// zap.S().Infoln("Start task task Id:", task.TaskId)
 	switch task.TaskNo {
 	case 1000:
 	case 1001:
-		subfinder.ColletDomainByInterface(task)
+		subfinder.ColletDomainBySubfinder(task)
 	case 1002:
-		// domain.ColletDomainByKSubdomain(task)
+		ksubdomain.ColletDomainBySubfinder(task)
+		// domain.ColletDomainBybg-agent/internal/assetCollect/ksubdomain(task)
 	case 1003:
 
 	case 1004:
@@ -69,7 +71,7 @@ func getTask() (task *response.Task, err error) {
 		return
 	}
 
-	zap.S().Info(string(buf))
+	// zap.S().Info(string(buf))
 
 	wr := response.WkgRes{}
 	err = json.Unmarshal(buf, &wr)
@@ -81,7 +83,7 @@ func getTask() (task *response.Task, err error) {
 		return
 	}
 
-	zap.S().Info(string(wr.Data))
+	// zap.S().Info(string(wr.Data))
 	//aes解密
 	decTaskData, err := enc.DecryptByAes(string(wr.Data))
 	if err != nil {

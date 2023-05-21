@@ -733,3 +733,397 @@
 2023-05-19T07:59:46.254-0700	INFO	transport/transfer.go:86	{{ 3.10.0-1160.88.1.el7.x86_64 x86_64 centos rhel 7.9.2009 8080936960 0.07488897 33644544 0.00000000 0.00000000 74433 9 1684491105 VMware-56 4d f5 be 06 95 89 3e-90 bd 67 a1 69 5f ad b1 BEF54D56-9506-3E89-90BD-67A1695FADB1 VMware Virtual Platform VMware, Inc. Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1684237880 0.00351506 0.26091029} d0d5bb84-3dd1-5150-937b-49943a8f1385 [192.168.57.129] [] [] [] localhost.localdomain 1.0.0 bg-agent}
 2023-05-19T08:02:46.254-0700	INFO	transport/transfer.go:86	{{ 3.10.0-1160.88.1.el7.x86_64 x86_64 centos rhel 7.9.2009 8080936960 0.10116677 33644544 0.00000000 0.00000000 74433 9 1684491105 VMware-56 4d f5 be 06 95 89 3e-90 bd 67 a1 69 5f ad b1 BEF54D56-9506-3E89-90BD-67A1695FADB1 VMware Virtual Platform VMware, Inc. Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1684237880 0.00390012 0.26060566} d0d5bb84-3dd1-5150-937b-49943a8f1385 [192.168.57.129] [] [] [] localhost.localdomain 1.0.0 bg-agent}
 2023-05-19T08:05:46.255-0700	INFO	transport/transfer.go:86	{{ 3.10.0-1160.88.1.el7.x86_64 x86_64 centos rhel 7.9.2009 8080936960 0.09449934 33644544 0.00000000 0.00000000 74433 9 1684491105 VMware-56 4d f5 be 06 95 89 3e-90 bd 67 a1 69 5f ad b1 BEF54D56-9506-3E89-90BD-67A1695FADB1 VMware Virtual Platform VMware, Inc. Intel(R) Core(TM) i7-10700 CPU @ 2.90GHz 1684237880 0.00393188 0.26117285} d0d5bb84-3dd1-5150-937b-49943a8f1385 [192.168.57.129] [] [] [] localhost.localdomain 1.0.0 bg-agent}
+2023-05-20T11:28:12.600+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-20T11:28:12.601+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-20T11:28:12.601+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-20T11:28:12.601+0800	INFO	bg-agent/main.go:54	id:f4dc3d6e-16fd-420d-819a-ee218b53627d
+2023-05-20T11:28:12.601+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-20T11:28:12.601+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-20T11:28:12.601+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-20T11:28:12.601+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-20T11:28:12.601+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-20T11:28:12.602+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-20T11:28:12.602+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-20T11:28:12.602+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-20T11:28:12.602+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-20T11:28:12.602+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-20T11:28:12.602+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-20T11:28:12.602+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-20T11:28:12.602+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-20T11:28:38.652+0800	ERROR	taskCore/core.go:62	Get "http://172.31.36.33:7788/v3/task/getTask?token=41f330686cbf9e21d9f092c68d032b03e24c7284": dial tcp 172.31.36.33:7788: connect: connection refused
+2023-05-20T11:28:59.681+0800	ERROR	taskCore/core.go:62	Get "http://172.31.36.33:7788/v3/task/getTask?token=41f330686cbf9e21d9f092c68d032b03e24c7284": dial tcp 172.31.36.33:7788: connect: connection refused
+2023-05-20T11:29:20.719+0800	ERROR	taskCore/core.go:62	Get "http://172.31.36.33:7788/v3/task/getTask?token=41f330686cbf9e21d9f092c68d032b03e24c7284": dial tcp 172.31.36.33:7788: connect: connection refused
+2023-05-20T11:29:39.715+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-20T11:29:39.716+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-20T11:29:39.716+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-20T11:29:39.717+0800	INFO	bg-agent/main.go:54	id:f4dc3d6e-16fd-420d-819a-ee218b53627d
+2023-05-20T11:29:39.717+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-20T11:29:39.717+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-20T11:29:39.717+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-20T11:29:39.718+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-20T11:29:39.718+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-20T11:29:39.718+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-20T11:29:39.718+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-20T11:29:39.718+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-20T11:29:39.718+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-20T11:29:39.718+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-20T11:29:39.719+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-20T11:29:39.719+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-20T11:29:39.719+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-20T11:29:44.725+0800	INFO	taskCore/core.go:72	{"code":200,"data":"/4j/nOwmJUeMO+UFAbfzulpAit7AV9doWYi3VtUUO4c+9Sq5xXtAcseT1JSlOSvJLqRQXaDK9uWmHmFWkJoZHXqDx0euqPaMUskf5A7PwFAAhGOhihrz4yHmMEns/n/W7mQ6JbXnVevi5Nm5Bg7rc3/lB+4GAih5pd+x/Vd6kva7YPq4Yt1GuLxTu9mA/qLK","msg":"成功"}
+2023-05-20T11:29:44.725+0800	INFO	taskCore/core.go:84	/4j/nOwmJUeMO+UFAbfzulpAit7AV9doWYi3VtUUO4c+9Sq5xXtAcseT1JSlOSvJLqRQXaDK9uWmHmFWkJoZHXqDx0euqPaMUskf5A7PwFAAhGOhihrz4yHmMEns/n/W7mQ6JbXnVevi5Nm5Bg7rc3/lB+4GAih5pd+x/Vd6kva7YPq4Yt1GuLxTu9mA/qLK
+2023-05-20T11:29:44.725+0800	INFO	taskCore/core.go:92	{"taskId":"001fd22e9e1d0517f014952843c50549","taskNo":1001,"domains":[{"cid":2,"rootDomains":["sf-express.com"]}],"VSAssets":{}}
+2023-05-20T11:29:44.726+0800	INFO	taskCore/core.go:41	Start task task Id: 001fd22e9e1d0517f014952843c50549
+2023-05-20T11:29:44.726+0800	INFO	subfinder/subfinder.go:79	[*] subfinder start.
+2023-05-20T11:30:49.369+0800	INFO	wkgApi/api.go:50	{"code":400,"msg":"认证信息为空"}
+2023-05-20T11:31:27.360+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-20T11:31:27.361+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-20T11:31:27.361+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-20T11:31:27.361+0800	INFO	bg-agent/main.go:54	id:f4dc3d6e-16fd-420d-819a-ee218b53627d
+2023-05-20T11:31:27.362+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-20T11:31:27.362+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-20T11:31:27.362+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-20T11:31:27.362+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-20T11:31:27.362+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-20T11:31:27.362+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-20T11:31:27.363+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-20T11:31:27.363+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-20T11:31:27.363+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-20T11:31:27.363+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-20T11:31:27.363+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-20T11:31:27.363+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-20T11:31:27.363+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-20T11:31:32.370+0800	INFO	taskCore/core.go:72	{"code":200,"data":"/4j/nOwmJUeMO+UFAbfzulpAit7AV9doWYi3VtUUO4c+9Sq5xXtAcseT1JSlOSvJLqRQXaDK9uWmHmFWkJoZHXqDx0euqPaMUskf5A7PwFAAhGOhihrz4yHmMEns/n/W7mQ6JbXnVevi5Nm5Bg7rc3/lB+4GAih5pd+x/Vd6kva7YPq4Yt1GuLxTu9mA/qLK","msg":"成功"}
+2023-05-20T11:31:32.370+0800	INFO	taskCore/core.go:84	/4j/nOwmJUeMO+UFAbfzulpAit7AV9doWYi3VtUUO4c+9Sq5xXtAcseT1JSlOSvJLqRQXaDK9uWmHmFWkJoZHXqDx0euqPaMUskf5A7PwFAAhGOhihrz4yHmMEns/n/W7mQ6JbXnVevi5Nm5Bg7rc3/lB+4GAih5pd+x/Vd6kva7YPq4Yt1GuLxTu9mA/qLK
+2023-05-20T11:31:32.371+0800	INFO	taskCore/core.go:92	{"taskId":"001fd22e9e1d0517f014952843c50549","taskNo":1001,"domains":[{"cid":2,"rootDomains":["sf-express.com"]}],"VSAssets":{}}
+2023-05-20T11:31:32.371+0800	INFO	taskCore/core.go:41	Start task task Id: 001fd22e9e1d0517f014952843c50549
+2023-05-20T11:31:32.371+0800	INFO	subfinder/subfinder.go:79	[*] subfinder start.
+2023-05-20T11:31:37.627+0800	INFO	wkgApi/api.go:45	upload success.
+2023-05-20T11:33:13.452+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-20T11:33:13.454+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-20T11:33:13.454+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-20T11:33:13.454+0800	INFO	bg-agent/main.go:54	id:27c15c77-514b-5318-9d29-e0502072d353
+2023-05-20T11:33:13.454+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-20T11:33:13.455+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-20T11:33:13.455+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-20T11:33:13.455+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-20T11:33:13.455+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-20T11:33:13.455+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-20T11:33:13.456+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-20T11:33:13.456+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-20T11:33:13.456+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-20T11:33:13.456+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-20T11:33:13.456+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-20T11:33:13.457+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-20T11:33:13.457+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-20T11:33:18.463+0800	INFO	taskCore/core.go:72	{"code":200,"data":"FHVTVyjW+dBz87g5fSeENrcfbMZTqNR+aXadPpkz3qAKy2vxV10/Qxa1zBJA2GRSp+q6hKGsHFIvptete188wFvB8ZZEleEaku1ebgDOiwzdVcEJh7HScJaGHlY7Oqy2emKrlKIz2cxs0DbdiYIY6HIEVqfB8ytEFZ1ELDhVohk=","msg":"成功"}
+2023-05-20T11:33:18.463+0800	INFO	taskCore/core.go:84	FHVTVyjW+dBz87g5fSeENrcfbMZTqNR+aXadPpkz3qAKy2vxV10/Qxa1zBJA2GRSp+q6hKGsHFIvptete188wFvB8ZZEleEaku1ebgDOiwzdVcEJh7HScJaGHlY7Oqy2emKrlKIz2cxs0DbdiYIY6HIEVqfB8ytEFZ1ELDhVohk=
+2023-05-20T11:33:18.464+0800	INFO	taskCore/core.go:92	{"taskId":"df1989fdf5adac3f957f54d657883271","taskNo":1001,"domains":[{"cid":1,"rootDomains":["momo.cn"]}],"VSAssets":{}}
+2023-05-20T11:33:18.465+0800	INFO	taskCore/core.go:41	Start task task Id: df1989fdf5adac3f957f54d657883271
+2023-05-20T11:33:18.465+0800	INFO	subfinder/subfinder.go:79	[*] subfinder start.
+2023-05-20T11:33:25.928+0800	INFO	wkgApi/api.go:45	upload success.
+2023-05-20T11:34:51.498+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-20T11:34:51.499+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-20T11:34:51.499+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-20T11:34:51.499+0800	INFO	bg-agent/main.go:54	id:f4dc3d6e-16fd-420d-819a-ee218b53627d
+2023-05-20T11:34:51.499+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-20T11:34:51.499+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-20T11:34:51.500+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-20T11:34:51.500+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-20T11:34:51.500+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-20T11:34:51.500+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-20T11:34:51.500+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-20T11:34:51.500+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-20T11:34:51.500+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-20T11:34:51.500+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-20T11:34:51.500+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-20T11:34:51.501+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-20T11:34:51.501+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-20T11:34:56.505+0800	INFO	taskCore/core.go:92	{"taskId":"001fd22e9e1d0517f014952843c50549","taskNo":1001,"domains":[{"cid":2,"rootDomains":["sf-express.com"]}],"VSAssets":{}}
+2023-05-20T11:34:56.505+0800	INFO	subfinder/subfinder.go:79	[*] subfinder start.
+2023-05-20T11:35:12.613+0800	INFO	wkgApi/api.go:45	upload success.
+2023-05-20T11:37:51.501+0800	INFO	transport/transfer.go:86	{{ 5.15.0-60-generic x86_64 ubuntu debian 22.04 8300351488 0.00000000 29220864 0.00000000 0.00000000 305966 9 1684553691   VMware Virtual Platform VMware, Inc. 13th Gen Intel(R) Core(TM) i9-13900K 1684114900 0.01571604 0.42644315} f4dc3d6e-16fd-420d-819a-ee218b53627d [192.168.112.128] [] [] [] test 1.0.0 bg-agent}
+2023-05-20T11:39:56.401+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-20T11:39:56.402+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-20T11:39:56.402+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-20T11:39:56.403+0800	INFO	bg-agent/main.go:54	id:f4dc3d6e-16fd-420d-819a-ee218b53627d
+2023-05-20T11:39:56.403+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-20T11:39:56.403+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-20T11:39:56.403+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-20T11:39:56.404+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-20T11:39:56.404+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-20T11:39:56.404+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-20T11:39:56.404+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-20T11:39:56.404+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-20T11:39:56.404+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-20T11:39:56.404+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-20T11:39:56.404+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-20T11:39:56.405+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-20T11:39:56.405+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-20T11:40:16.407+0800	INFO	taskCore/core.go:92	{"taskId":"df1989fdf5adac3f957f54d657883271","taskNo":1001,"domains":[{"cid":1,"rootDomains":["momo.cn"]}],"VSAssets":{}}
+2023-05-20T11:40:16.407+0800	INFO	subfinder/subfinder.go:79	[*] subfinder start.
+2023-05-20T11:40:22.019+0800	INFO	wkgApi/api.go:45	upload success.
+2023-05-20T11:40:22.019+0800	INFO	subfinder/subfinder.go:91	TaskNo: 1001 find subdomain count: 12
+2023-05-20T11:40:22.020+0800	INFO	taskCore/core.go:92	{"taskId":"001fd22e9e1d0517f014952843c50549","taskNo":1001,"domains":[{"cid":2,"rootDomains":["sf-express.com"]}],"VSAssets":{}}
+2023-05-20T11:40:22.020+0800	INFO	subfinder/subfinder.go:79	[*] subfinder start.
+2023-05-20T23:40:04.464+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-20T23:40:04.465+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-20T23:40:04.465+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-20T23:40:04.466+0800	INFO	bg-agent/main.go:54	id:f4dc3d6e-16fd-420d-819a-ee218b53627d
+2023-05-20T23:40:04.466+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-20T23:40:04.466+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-20T23:40:04.466+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-20T23:40:04.466+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-20T23:40:04.466+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-20T23:40:04.467+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-20T23:40:04.467+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-20T23:40:04.467+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-20T23:40:04.467+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-20T23:40:04.467+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-20T23:40:04.468+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-20T23:40:04.468+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-20T23:40:04.468+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-20T23:40:09.474+0800	INFO	taskCore/core.go:92	{"taskId":"001fd22e9e1d0517f014952843c50549","taskNo":1001,"domains":[{"cid":2,"rootDomains":["sf-express.com"]}],"VSAssets":{}}
+2023-05-20T23:40:09.474+0800	INFO	subfinder/subfinder.go:79	[*] subfinder start.
+2023-05-20T23:40:21.974+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-20T23:40:21.975+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-20T23:40:21.975+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-20T23:40:21.975+0800	INFO	bg-agent/main.go:54	id:f4dc3d6e-16fd-420d-819a-ee218b53627d
+2023-05-20T23:40:21.975+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-20T23:40:21.976+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-20T23:40:21.976+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-20T23:40:21.976+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-20T23:40:21.976+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-20T23:40:21.976+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-20T23:40:21.976+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-20T23:40:21.976+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-20T23:40:21.977+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-20T23:40:21.977+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-20T23:40:21.977+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-20T23:40:21.977+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-20T23:40:21.977+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-20T23:40:31.977+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-20T23:40:31.978+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-20T23:40:31.978+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-20T23:40:31.978+0800	INFO	bg-agent/main.go:54	id:f4dc3d6e-16fd-420d-819a-ee218b53627d
+2023-05-20T23:40:31.979+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-20T23:40:31.979+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-20T23:40:31.979+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-20T23:40:31.979+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-20T23:40:31.979+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-20T23:40:31.979+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-20T23:40:31.980+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-20T23:40:31.980+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-20T23:40:31.980+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-20T23:40:31.980+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-20T23:40:31.980+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-20T23:40:31.980+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-20T23:40:31.980+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-20T23:40:36.986+0800	INFO	taskCore/core.go:92	{"taskId":"df1989fdf5adac3f957f54d657883271","taskNo":1001,"domains":[{"cid":1,"rootDomains":["momo.cn"]}],"VSAssets":{}}
+2023-05-20T23:40:36.987+0800	INFO	subfinder/subfinder.go:79	[*] subfinder start.
+2023-05-20T23:40:43.219+0800	INFO	wkgApi/api.go:45	upload success.
+2023-05-20T23:40:43.220+0800	INFO	subfinder/subfinder.go:91	TaskNo: 1001 find subdomain count: 12
+2023-05-20T23:40:43.221+0800	INFO	taskCore/core.go:92	{"taskId":"001fd22e9e1d0517f014952843c50549","taskNo":1001,"domains":[{"cid":2,"rootDomains":["sf-express.com"]}],"VSAssets":{}}
+2023-05-20T23:40:43.221+0800	INFO	subfinder/subfinder.go:79	[*] subfinder start.
+2023-05-20T23:41:02.088+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-20T23:41:02.090+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-20T23:41:02.090+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-20T23:41:02.090+0800	INFO	bg-agent/main.go:54	id:f4dc3d6e-16fd-420d-819a-ee218b53627d
+2023-05-20T23:41:02.090+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-20T23:41:02.090+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-20T23:41:02.090+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-20T23:41:02.091+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-20T23:41:02.091+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-20T23:41:02.091+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-20T23:41:02.091+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-20T23:41:02.091+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-20T23:41:02.092+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-20T23:41:02.092+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-20T23:41:02.092+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-20T23:41:02.092+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-20T23:41:02.092+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-20T23:41:07.099+0800	INFO	taskCore/core.go:92	{"taskId":"df1989fdf5adac3f957f54d657883271","taskNo":1001,"domains":[{"cid":1,"rootDomains":["momo.cn"]}],"VSAssets":{}}
+2023-05-20T23:41:07.100+0800	INFO	subfinder/subfinder.go:79	[*] subfinder start.
+2023-05-21T19:11:56.302+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-21T19:11:56.304+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-21T19:11:56.304+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-21T19:11:56.304+0800	INFO	bg-agent/main.go:54	id:27c15c77-514b-5318-9d29-e0502072d353
+2023-05-21T19:11:56.305+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-21T19:11:56.305+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-21T19:11:56.305+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-21T19:11:56.305+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-21T19:11:56.305+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-21T19:11:56.305+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-21T19:11:56.306+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-21T19:11:56.306+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-21T19:11:56.306+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-21T19:11:56.306+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-21T19:11:56.306+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-21T19:11:56.307+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-21T19:11:56.307+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-21T19:13:46.956+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-21T19:13:46.958+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-21T19:13:46.958+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-21T19:13:46.958+0800	INFO	bg-agent/main.go:54	id:27c15c77-514b-5318-9d29-e0502072d353
+2023-05-21T19:13:46.959+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-21T19:13:46.959+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-21T19:13:46.959+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-21T19:13:46.959+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-21T19:13:46.959+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-21T19:13:46.960+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-21T19:13:46.960+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-21T19:13:46.960+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-21T19:13:46.960+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-21T19:13:46.960+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-21T19:13:46.961+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-21T19:13:46.961+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-21T19:13:46.961+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-21T19:16:27.392+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-21T19:16:27.394+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-21T19:16:27.394+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-21T19:16:27.394+0800	INFO	bg-agent/main.go:54	id:27c15c77-514b-5318-9d29-e0502072d353
+2023-05-21T19:16:27.394+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-21T19:16:27.395+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-21T19:16:27.395+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-21T19:16:27.395+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-21T19:16:27.395+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-21T19:16:27.396+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-21T19:16:27.396+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-21T19:16:27.396+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-21T19:16:27.396+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-21T19:16:27.396+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-21T19:16:27.397+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-21T19:16:27.397+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-21T19:16:27.397+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-21T19:16:57.424+0800	ERROR	taskCore/core.go:64	Get "http://127.0.0.1:7788/v3/task/getTask?token=41f330686cbf9e21d9f092c68d032b03e24c7284": dial tcp 127.0.0.1:7788: connect: connection refused
+2023-05-21T19:17:27.424+0800	ERROR	taskCore/core.go:64	Get "http://127.0.0.1:7788/v3/task/getTask?token=41f330686cbf9e21d9f092c68d032b03e24c7284": dial tcp 127.0.0.1:7788: connect: connection refused
+2023-05-21T19:19:14.095+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-21T19:19:14.097+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-21T19:19:14.097+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-21T19:19:14.098+0800	INFO	bg-agent/main.go:54	id:27c15c77-514b-5318-9d29-e0502072d353
+2023-05-21T19:19:14.098+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-21T19:19:14.098+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-21T19:19:14.098+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-21T19:19:14.098+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-21T19:19:14.098+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-21T19:19:14.099+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-21T19:19:14.099+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-21T19:19:14.099+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-21T19:19:14.099+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-21T19:19:14.099+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-21T19:19:14.099+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-21T19:19:14.100+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-21T19:19:14.100+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-21T19:20:14.129+0800	ERROR	taskCore/core.go:64	Get "http://192.168.31.123:7788/v3/task/getTask?token=41f330686cbf9e21d9f092c68d032b03e24c7284": dial tcp 192.168.31.123:7788: i/o timeout
+2023-05-21T19:20:21.240+0800	INFO	taskCore/core.go:94	{"taskId":"001fd22e9e1d0517f014952843c50549","taskNo":1001,"domains":[{"cid":2,"rootDomains":["sf-express.com"]}],"VSAssets":{}}
+2023-05-21T19:20:21.241+0800	INFO	subfinder/subfinder.go:80	[*] subfinder start.
+2023-05-21T19:21:43.779+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-21T19:21:43.781+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-21T19:21:43.781+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-21T19:21:43.781+0800	INFO	bg-agent/main.go:54	id:27c15c77-514b-5318-9d29-e0502072d353
+2023-05-21T19:21:43.782+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-21T19:21:43.782+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-21T19:21:43.782+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-21T19:21:43.782+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-21T19:21:43.783+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-21T19:21:43.783+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-21T19:21:43.783+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-21T19:21:43.783+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-21T19:21:43.783+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-21T19:21:43.784+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-21T19:21:43.784+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-21T19:21:43.784+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-21T19:21:43.784+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-21T19:22:04.380+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-21T19:22:04.381+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-21T19:22:04.381+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-21T19:22:04.382+0800	INFO	bg-agent/main.go:54	id:27c15c77-514b-5318-9d29-e0502072d353
+2023-05-21T19:22:04.382+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-21T19:22:04.382+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-21T19:22:04.382+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-21T19:22:04.383+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-21T19:22:04.383+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-21T19:22:04.383+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-21T19:22:04.383+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-21T19:22:04.384+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-21T19:22:04.384+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-21T19:22:04.384+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-21T19:22:04.384+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-21T19:22:04.385+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-21T19:22:04.385+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-21T19:24:08.698+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-21T19:24:08.700+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-21T19:24:08.700+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-21T19:24:08.700+0800	INFO	bg-agent/main.go:54	id:f4dc3d6e-16fd-420d-819a-ee218b53627d
+2023-05-21T19:24:08.700+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-21T19:24:08.700+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-21T19:24:08.700+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-21T19:24:08.700+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-21T19:24:08.700+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-21T19:24:08.700+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-21T19:24:08.700+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-21T19:24:08.701+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-21T19:24:08.701+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-21T19:24:08.701+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-21T19:24:08.701+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-21T19:24:08.701+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-21T19:24:08.701+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-21T19:24:13.708+0800	INFO	taskCore/core.go:94	{"taskId":"bd85fd5ad9d19598ea8b901588ce7bbc","taskNo":1002,"domains":[{"cid":2,"rootDomains":["sf-express.com"]}],"VSAssets":{}}
+2023-05-21T19:24:13.709+0800	INFO	ksubdomain/ksubdomain.go:13	ksubdomain start.
+2023-05-21T19:26:59.821+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-21T19:26:59.823+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-21T19:26:59.823+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-21T19:26:59.823+0800	INFO	bg-agent/main.go:54	id:f4dc3d6e-16fd-420d-819a-ee218b53627d
+2023-05-21T19:26:59.823+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-21T19:26:59.823+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-21T19:26:59.824+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-21T19:26:59.824+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-21T19:26:59.824+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-21T19:26:59.824+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-21T19:26:59.824+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-21T19:26:59.824+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-21T19:26:59.824+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-21T19:26:59.824+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-21T19:26:59.824+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-21T19:26:59.824+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-21T19:26:59.825+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-21T19:27:04.832+0800	INFO	taskCore/core.go:94	{"taskId":"bd85fd5ad9d19598ea8b901588ce7bbc","taskNo":1002,"domains":[{"cid":2,"rootDomains":["sf-express.com"]}],"VSAssets":{}}
+2023-05-21T19:27:04.832+0800	INFO	ksubdomain/ksubdomain.go:13	ksubdomain start.
+2023-05-21T19:27:12.755+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-21T19:27:12.757+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-21T19:27:12.757+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-21T19:27:12.757+0800	INFO	bg-agent/main.go:54	id:27c15c77-514b-5318-9d29-e0502072d353
+2023-05-21T19:27:12.757+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-21T19:27:12.757+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-21T19:27:12.758+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-21T19:27:12.758+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-21T19:27:12.758+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-21T19:27:12.758+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-21T19:27:12.758+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-21T19:27:12.758+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-21T19:27:12.758+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-21T19:27:12.758+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-21T19:27:12.758+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-21T19:27:12.758+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-21T19:27:12.758+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-21T19:27:17.765+0800	INFO	taskCore/core.go:94	{"taskId":"bd85fd5ad9d19598ea8b901588ce7bbc","taskNo":1002,"domains":[{"cid":2,"rootDomains":["sf-express.com"]}],"VSAssets":{}}
+2023-05-21T19:27:17.765+0800	INFO	ksubdomain/ksubdomain.go:13	ksubdomain start.
+2023-05-21T19:31:08.398+0800	INFO	bg-agent/main.go:51	++++++++++++++++++++++++++++++startup++++++++++++++++++++++++++++++
+2023-05-21T19:31:08.399+0800	INFO	bg-agent/main.go:52	product:bg-agent
+2023-05-21T19:31:08.399+0800	INFO	bg-agent/main.go:53	version:1.0.0
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:54	id:27c15c77-514b-5318-9d29-e0502072d353
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:55	hostname:test
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:56	intranet_ipv4:[192.168.112.128]
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:57	intranet_ipv6:[]
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:58	extranet_ipv4:[]
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:59	extranet_ipv6:[]
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:60	platform:ubuntu
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:61	platform_family:debian
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:62	platform_version:22.04
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:63	kernel_version:5.15.0-60-generic
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:64	arch:x86_64
+2023-05-21T19:31:08.400+0800	INFO	bg-agent/main.go:66	++++++++++++++++++++++++++++++running++++++++++++++++++++++++++++++
+2023-05-21T19:31:08.401+0800	INFO	heartbeat/heartbeat.go:60	health daemon startup
+2023-05-21T19:31:08.401+0800	INFO	transport/transfer.go:67	send handler running
+2023-05-21T19:31:13.404+0800	INFO	taskCore/core.go:94	{"taskId":"bd85fd5ad9d19598ea8b901588ce7bbc","taskNo":1002,"domains":[{"cid":2,"rootDomains":["sf-express.com"]}],"VSAssets":{}}
+2023-05-21T19:31:13.404+0800	INFO	ksubdomain/ksubdomain.go:13	ksubdomain start.

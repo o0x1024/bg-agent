@@ -47,7 +47,7 @@ func hbsend(pkdata request.PackagedData) error {
 		return err
 	}
 
-	req, _ := http.NewRequest("POST", global.HeartBeatAPI, bytes.NewReader(data))
+	req, _ := http.NewRequest("POST", global.WkgURL+"/v2/agent/heartBeat", bytes.NewReader(data))
 
 	resp, err := client.Do(req)
 	if err != nil {
